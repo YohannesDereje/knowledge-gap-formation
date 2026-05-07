@@ -1,0 +1,6 @@
+# Day 3 — Evening Call Summary
+
+**Participants:** Yohannes Dereje and Atnabon Deressa
+**Duration:** ≥45 minutes
+
+Yohannes walked his partner through the LoRA rank explainer, covering the geometric distinction between rank and alpha/r as separate knobs, the Aghajanyan et al. intrinsic dimensionality result showing 200 parameters suffice for RoBERTa classification tasks, and the Hu et al. rank ablation showing performance plateaus at r=4–8 — the partner confirmed the gap was closed and gave feedback that the regex_negative/regex_positive failure pattern breakdown was the most clarifying section because it reframed the problem from a rank question to a target module question. The partner then walked Yohannes through the Q+V versus FFN target module explainer, explaining that Q and V handle attention routing which is sufficient for suppression, while FFN layers handle per-token transformation which is required for generating specific hedging phrases — and that no rank increase on Q+V alone can fix a generative failure because they operate in different spaces. Yohannes confirmed his gap was closed and gave feedback that the rewritten `train.py` comment with full mechanistic justification and paper citations was the most actionable part of the explainer. No revisions were required by either partner — both explainers were accepted as written.
