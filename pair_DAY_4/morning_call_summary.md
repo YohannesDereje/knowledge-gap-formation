@@ -1,0 +1,6 @@
+# Day 4 — Morning Call Summary
+
+**Participants:** Yohannes Dereje and Natnael Alemseged
+**Duration:** ≥20 minutes
+
+Natnael's original draft question asked why reporting P(mean_bootstrap ≤ 0) treats the bootstrap distribution of the estimator as the null distribution of the test statistic — which Yohannes found technically precise but too abstract to anchor in the artifact, so the call sharpened it to name the 47 held-out tasks, the specific script behavior, and the concrete null hypothesis "the trained judge has no true advantage over baseline on matched tasks." Yohannes's original question about the paired bootstrap CI was broad, so Natnael asked five clarifying questions — distinguishing the variance-reduction mechanism from the experimental-design justification, requesting the specific reviewer-facing conclusion at stake, and asking whether the gap changes if the unpaired CI lower bound crosses zero — and Yohannes confirmed that the critical failure mode is significance (lower bound crossing zero) and that both the variance-reduction mechanism and the design justification need to be answered. Both questions were confirmed as passing the four-property rubric before research began.
