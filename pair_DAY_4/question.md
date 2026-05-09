@@ -1,6 +1,6 @@
 # Day 4 — Question
 
-**Topic:** Statistical evaluation and experimental design
+**Topic:** Evaluation and statistics
 
 **My Question:**
 
